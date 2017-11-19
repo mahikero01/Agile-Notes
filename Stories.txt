@@ -176,10 +176,41 @@ Acceptance Criteria
 	1. User stories are high level - Allows stories to remain flexible
 	2. Acceptance criteria provides more detail - Fills in the gaps left by user stories
 	
-Acceptance CRiteria Format
-	1. Given 
-	2. When
-	3. Then
+Acceptance Criteria Format
+	1. Given - context of the criteria
+	2. When - specific actions need to occur
+	3. Then - expected result
+	
+Gathering Criteria from Questions
+	1. Questions represents real problems - Improves the focus of the team
+	2. User stories are high level - Acceptance criteria fills in the gaps
+	
+Where Do We Store Acceptance Criteria?
+	1. On the back of the Card
+	2. In the DEscription Field
+	
+Creating Acceptance Criteria	
+	1. Writing criteria is the first step to working on the story
+	2. Agree on criteria before coding begins
+	3. Use crieria as the basis for test cases
+	
+What Makes Great Criteria 
+	1. Specific - Establish what makes the story successful
+	2. Measurable - Set benchmarks early
+	3. Realistics - Identify and capture constraints
+	
+	
+Common Done Criteria	
+	1. Test Coverage
+	2. Peer Reviewed
+	3. Deployed
+	4. Accepted
+	
+Choosing Done Criteria
+	1. Choose it as a team
+	2. Allow it to evolve
+	3. Make it public
+	4. Keep it informal
 	
 	
 Scrum Management Tool Terms.
@@ -370,6 +401,18 @@ D. Splitting Stories
 					so I can estimate the work required to incorporate it in our 
 					product."		
 					
-		   		
+E. Acceptance Criteria
+	a. story - "As a customer,
+				I want to rip music to my device,
+				So I can listen to it on the go."
+
+		"Given the CD has been inserted into the kiosk,
+		When the contents of the CD are ripped,
+		Then the resulting format will be MP3."
+		
+		"Given that an IOS device has been plugged into the kiosk,
+		When the ripped files are copied to the device,
+		Then the files will be imported into the device's library."
+				
 					
 					
