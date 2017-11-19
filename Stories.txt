@@ -11,12 +11,7 @@ What is not a story?
 	1. Detailed requirements - Defers design to the responsible moment
 	2. Set in stone - Designed to be flexible
 	
-What are Roles?
-	1. Represents groups of users - Rather than individual users
-	2. Derived from the characteristics of the group - Based on the group'said
-		interest in the system
-	
-A story is a placeholder for a conversation.
+A story - is a placeholder for a conversation.
 
 The Story Format
 	1. As a (position name),
@@ -25,6 +20,46 @@ The Story Format
 		e.g. I want to create a quarterly forecast,
 	3. So that (reason for the said task).
 		e.g. So that I may share my sales goals.
+		
+A story must be an INVEST
+	1. Independent - can stand on its own
+	2. Negotiable - can be change and rewritten
+	3. Valuable - the story has a value to the end user
+	4. Estimate-able - the story must be small enought can be estimate when it can be finish
+	5. Small - the story must to be able to complete
+	6. Testable - the story can be testable for implmentation
+	
+	
+Epics - set of stories that are related and considered as one big story	and must be 
+deliverable as a whole
+
+Qualities of Epics	
+	1. Captures a complete workflow towards a goal
+	2. Not deliverable until all stories are complete
+	3. Can cater to multiple users
+
+	
+Themes - set of stories that are related and can be delivered individualy	
+		
+Qualities of Themes	
+	1. Stories are related, or all serve a similar goal
+	2. Do not need to encapsulate a workflow
+	3. Can be delivered independently of one another
+		
+		
+What are Roles?
+	1. Represents groups of users - Rather than individual users
+	2. Derived from the characteristics of the group - Based on the group'said
+		interest in the system
+			
+
+Persona - a fictional character that represents a user of the application
+		
+Roles versus Personas
+	Roles - Represent a group of users
+	Personas - Represent individual users
+			 - Creates a backstory for a role
+			 - Differetiates between similar roles
 		
 Scrum Management Terms.
 	1. Current - curent items to working
@@ -39,6 +74,7 @@ Scrum Management Terms.
 2. Electronics Tools	
 	a. Better for archiving stories
 	b. Better for distributed teams
+	
 	
 	
 	
@@ -69,6 +105,68 @@ Requirements
 		a. Usage reports
 		b. Financial reports
 		c. Diagnostic reports
+		
 
+		
+Stories Method Approach		
+
+A. Roles for the system
+	1. Customers - Rips their CDs to their devices
+	2. Service people - Performs periodic maintenance on the kiosk
+	3. Owners - Reports on the kiosk to manage the business
+	
+B. Stories 
+	1. A Single Story
+		"We can periodically empty the kiosk and pickup the CDs for recycling."
+		story - "As a serviceperson,  
+				I want to empty the CDs,
+				So that may be recycled."
+				
+	2. An Epic Story
+		"Users can insert any CD into the kiosk"
+	   "Users will plug their device into the kiosk"
+	    story - "As a customer,
+				I want to rip music to my device,
+				So I can listen to it on the go."
+		Story has been separated
+			a. Insert a CD
+				story - "As a customer,
+						I want to insert a CD into the kiosk,
+						so I can rip its contents to my device."
+			b. Plug in a device
+				story - "As a customer,
+						I want to plug my device into the kiosk,
+						so I can load it with the contents of my CD."
+			c. Select the songs
+				story - "As a customer,
+						I want to  select the songs I'd like to rip,
+						so I can only rip the music I want."
+			d. Pay by credit card
+				story - "As a owner,
+						I want the customer to pay for this service by credit,
+						so I can generate revenue from this service."
+			e. Rip the music to the device
+				story - "As a customer,
+						I want the music to ripped from my CD to my device,
+						so I can enjoy music on the go."
+			f. Prompt for CD recycling
+				story - "As a owner,
+						I want to prompt the user to recycle their CD,
+						so I can generate incremental revenue from reselling CDs."
+	
+	3. 	A Theme of Stories
+		"We can pull reports from the kiosk to see how it's doing.
+		a. Usage reports
+		b. Financial reports
+		c. Diagnostic reports"
+		story - "As a serviceperson,
+				I want to view a report of the peak times of day,
+				so I can schedule service calls with minimal interruption."
+		story - "As an owner,
+				I want to view a report of the types of music being ripped,
+				so I can find secondary buyers who will give us the best prices for used CDs."	
+		story - As an owner,
+				I want to view a report of the types of devices being ripped to,
+				so I can offer upsells to the customer specific to those devices."
 		
 		
