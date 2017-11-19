@@ -60,8 +60,37 @@ Roles versus Personas
 	Personas - Represent individual users
 			 - Creates a backstory for a role
 			 - Differetiates between similar roles
+			 
+Which Roles should we create a Persona?
+	1. Frequently used roles - Not all roles will become personas
+	2. Relationship mapping - Who are the key users of the application
+	
+Advantage of Relationship Mapping
+	1. Identify new users
+	2. Highlights interactions between users
+	3. Shows influence
+	
+Choosers versus Users
+	1. Chooser - Those who are paying for the system
+	2. Users Those who are using the system
 		
-Scrum Management Terms.
+Creating Personas
+	1. Name
+	2. Photo
+	3. Role
+	4. Description
+	
+In Addition
+	1. Key Quote
+	2. Professional Title
+	3. User Demographics
+	
+Pitfalls when using Personas
+	1. Using photos of celebrities - Free the team of preconceived notions
+	2. Narrowly defining the backstory - Personas should expand a role, not limit it
+	
+		
+Scrum Management Tool Terms.
 	1. Current - curent items to working
 	2. Backlog - next item to be work on
 	3. Icebox - holding pen for task but not yet related to backlog for not to loose track
@@ -169,4 +198,17 @@ B. Stories
 				I want to view a report of the types of devices being ripped to,
 				so I can offer upsells to the customer specific to those devices."
 		
+		
+C. Personas		
+	1.  Name - Suzy
+		Details - Role: Customer
+				  Suzy wants to rip her CDs so she no longer
+				  has to carry them, and a separateddevice, enjoy her music
+		Goal - "I want to get rid of these CDs!"	
+
+	2. Name - Stan
+	   Details - Role: service person
+				 Stan wants to keep the kiosk running smoothly
+				 and easily perform routine maintenance on it.
+	   Goal - "I just want to be home by dinner"
 		
