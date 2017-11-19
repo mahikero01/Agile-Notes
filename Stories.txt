@@ -6,3 +6,23 @@ User Stories
 What is a story?
 	1) Brief - Designed to encourage interaction
 	2) High level - Allows you to defer details
+	
+What is not a story?
+	1) Detailed requirements - Defers design to the responsible moment
+	2) Set in stone - Designed to be flexible
+	
+A story is a placeholder for a conversation.
+
+The Story Format
+	1) As a (position name),
+		e.g. As a salesperson,
+	2) I want to (wanted to do),
+		e.g. I want to create a quarterly forecast,
+	3) So that (reason for the said task).
+		e.g. So that I may share my sales goals.
+		
+Scrum Management Terms.
+	1) Current - curent items to working
+	2) Backlog - next item to be work on
+	3) Icebox - holding pen for task but not yet related to backlog for not to loose track
+	4) Epics - large stories/task
