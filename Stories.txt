@@ -89,7 +89,99 @@ Pitfalls when using Personas
 	1. Using photos of celebrities - Free the team of preconceived notions
 	2. Narrowly defining the backstory - Personas should expand a role, not limit it
 	
+Getting the most from Personas
+	1. Make them visible
+	2. Keep them current
+	3. Tell "stories from the field"
+	4. Refer to them by Name
+
+
+Splitting Stories
+
+Big stories disadvantages
+	1. Tough to estimate
+	2. Work is not distributed well
+	3. Bigger misses
+	
+Advantages of Small Stories
+	1. More flexibility in release planning
+	2. Easier negotiation with product owner
+	3. Can save development work
+	
+How big is too big?
+	1. When does the team become uncomfortable - Teams will have less confidence as stories grow
+	2. Where does the team become less accurate - This number is a trigger for breaking down stories
+
+Splitting Stories approach
+	1. Horizontally - User interface, Server Side, Database Layer
+	   Disadvantages of Splitting Horizontally	
+			a. Horizontal slices provide no value
+			b. Difficult to testable
+			c. Promotes silos
+	2. Vertically - basic profiles details, additional profile details, social network integration
+		Advantages of Splitting Vertically
+			a. Delivers smaller pieces of functionality
+			b. Encourage well rounded developers
+			c. Stories are more testable
+		Disadvantages of Splitting Vertically
+			a. Can feel unfamiliar to many teams - Especially teams from siloed backgrounds
+			b. Pushes people out of their comfort zone - Can result in an drop in productivity
 		
+Techniques for Splitting Stories	
+	1. Seams
+		a. Story Splitting Patterns
+			i. Workflow
+			ii. Roles
+			iii. Positive and negative cases
+			iv. Illities
+			    Common Illities
+					- How secure is the system
+					- How reliable is the system
+					- How scalable is the system
+				Splitting by Illities
+					- Allows feedback on stories early -> Team can focuson Illities in parallel
+					- Prevents unnecessary work -> Many stories are reworked or dropped entirely
+			v. Third party dependencies
+				Splitting by 3rd Party Dependencies
+					- Allows focus on the core story -> Polish once dependencies become available
+					- Allows blocking of the primary story -> Complete once blockers are removed
+			vi. spikes
+				Estimating with Unknowns
+					- Working with unfamiliar code
+					- Using a new technology
+					- Solving an unusual problem
+				Breaking Story in Two
+					- A spike to investigate the problem -> Learn just enough to estimate the work
+					- A story to do the work -> complete the actual task
+				Getting the Most out of the Spikes
+					- Timebox the investigation
+					- Specify clear goals
+		
+
+Whats Gets a Story to Done
+	1. Meeting the customer's expectations
+	2. Meeting the team's expectations
+		
+What the Customer Wants
+	1. Does what's expected
+	2. Does not crash
+	3. Easy to use
+	
+What the Team Wants
+	1. High quality code
+	2. Unit tested
+	3. Peer reviewed
+	
+Acceptance Criteria
+	1. User stories are high level - Allows stories to remain flexible
+	2. Acceptance criteria provides more detail - Fills in the gaps left by user stories
+	
+Acceptance CRiteria Format
+	1. Given 
+	2. When
+	3. Then
+	
+	
 Scrum Management Tool Terms.
 	1. Current - curent items to working
 	2. Backlog - next item to be work on
@@ -212,3 +304,72 @@ C. Personas
 				 and easily perform routine maintenance on it.
 	   Goal - "I just want to be home by dinner"
 		
+D. Splitting Stories
+	1. Workflow
+			1st Priority
+			a. Insert a CD
+				story - "As a customer,
+						I want to insert a CD into the kiosk,
+						so I can rip its contents to my device."
+			b. Plug in a device
+				story - "As a customer,
+						I want to plug my device into the kiosk,
+						so I can load it with the contents of my CD."
+			
+			e. Rip the music to the device
+				story - "As a customer,
+						I want the music to ripped from my CD to my device,
+						so I can enjoy music on the go."
+			
+			2nd Priority
+			c. Select the songs
+				story - "As a customer,
+						I want to  select the songs I'd like to rip,
+						so I can only rip the music I want."
+			
+			3rd Priority 
+			d. Pay by credit card
+				story - "As a owner,
+						I want the customer to pay for this service by credit,
+						so I can generate revenue from this service."
+			
+			f. Prompt for CD recycling
+				story - "As a owner,
+						I want to prompt the user to recycle their CD,
+						so I can generate incremental revenue from reselling CDs."
+	
+	2. Illities 
+		a. story - "As a customer,
+				I want to rip music to my device,
+				So I can listen to it on the go."
+				
+		
+		   story - "As a customer,
+				I want to rip an album of 60 minutes of music to my 
+				device in under 5 minutes,
+				
+				So I can complete the process quickly."
+				
+		b. story - "As an owner,
+				    I want the customer to pay for this service by credit,
+					so I can generate revenue from this service."
+					
+		   story - "As an owner,
+					I want credit card information to be encrypted during
+					transmission,
+					so I can fully protect the business from liability."
+		
+	3. Spiked
+		a. story - "As an owner,
+				    I want the customer to pay for this service by credit,
+					so I can generate revenue from this service."
+					
+					
+		   story - 	"As a developer,
+					I want to investigate the steps for credit card processing,
+					so I can estimate the work required to incorporate it in our 
+					product."		
+					
+		   		
+					
+					
