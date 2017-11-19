@@ -4,36 +4,44 @@ User Stories
 	- Large point of struggle
 	
 What is a story?
-	1) Brief - Designed to encourage interaction
-	2) High level - Allows you to defer details
+	1. Brief - Designed to encourage interaction
+	2. High level - Allows you to defer details
 	
 What is not a story?
-	1) Detailed requirements - Defers design to the responsible moment
-	2) Set in stone - Designed to be flexible
+	1. Detailed requirements - Defers design to the responsible moment
+	2. Set in stone - Designed to be flexible
+	
+What are Roles?
+	1. Represents groups of users - Rather than individual users
+	2. Derived from the characteristics of the group - Based on the group'said
+		interest in the system
 	
 A story is a placeholder for a conversation.
 
 The Story Format
-	1) As a (position name),
+	1. As a (position name),
 		e.g. As a salesperson,
-	2) I want to (wanted to do),
+	2. I want to (wanted to do),
 		e.g. I want to create a quarterly forecast,
-	3) So that (reason for the said task).
+	3. So that (reason for the said task).
 		e.g. So that I may share my sales goals.
 		
 Scrum Management Terms.
-	1) Current - curent items to working
-	2) Backlog - next item to be work on
-	3) Icebox - holding pen for task but not yet related to backlog for not to loose track
-	4) Epics - large stories/task
+	1. Current - curent items to working
+	2. Backlog - next item to be work on
+	3. Icebox - holding pen for task but not yet related to backlog for not to loose track
+	4. Epics - large stories/task
 	
 2 Stories Management Tools	
-1) Stikies notes properties
-	- More tangiable
-	- More flexible
-2) Electronics Tools	
-	- Better for archiving stories
-	- Better for distributed teams
+1. Stikies notes properties
+	a. More tangiable
+	b. More flexible
+2. Electronics Tools	
+	a. Better for archiving stories
+	b. Better for distributed teams
+	
+	
+	
 	
 	
 	
@@ -57,7 +65,10 @@ Requirements
 	3. We can periodically empty the kiosk and pickup the CDs for recycling.
 	4. We will charge a convenience fee for the process of ripping their music
 		to their device. This fee will be paid by credit card.
-	5. WE can pull reports from the kiosk to see how it's doing.
+	5. We can pull reports from the kiosk to see how it's doing.
 		a. Usage reports
 		b. Financial reports
 		c. Diagnostic reports
+
+		
+		
