@@ -26,3 +26,11 @@ Scrum Management Terms.
 	2) Backlog - next item to be work on
 	3) Icebox - holding pen for task but not yet related to backlog for not to loose track
 	4) Epics - large stories/task
+	
+2 Stories Management Tools	
+1) Stikies notes properties
+	- More tangiable
+	- More flexible
+2) Electronics Tools	
+	- Better for archiving stories
+	- Better for distributed teams
