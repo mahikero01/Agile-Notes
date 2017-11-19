@@ -1,0 +1,8 @@
+User Stories
+	- Common to most agile methodologies
+	- Popular with new teams
+	- Large point of struggle
+	
+What is a story?
+	1) Brief - Designed to encourage interaction
+	2) High level - Allows you to defer details
