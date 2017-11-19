@@ -34,3 +34,30 @@ Scrum Management Terms.
 2) Electronics Tools	
 	- Better for archiving stories
 	- Better for distributed teams
+	
+	
+	
+A sample Business Requirements	
+
+The Globomantics Audio Refdeemer
+Gobomantics has developed the next wave in audio excellence. No longer is your music 
+doomed to a life in it's compact discdungeon, instead it can
+finally be liberated to accompany you on all of your adventure, through the magic
+of your portable player.
+
+Here's how it works:
+	1. An audiophile hungry for music liberation places their CD into the kiosk.
+	2. They then plug their Portable Media Player into the kiosk's USB slot
+	3. THe Kiosk automatically rips all of their CDs directly to their Portable MediaPlayer.
+	
+Requirements
+	1. Users can insert any CD into the kiosk
+		a. If the user likes we'll keep their CD and recycle it for them
+	2. Users will plug their device into the kiosk.
+	3. We can periodically empty the kiosk and pickup the CDs for recycling.
+	4. We will charge a convenience fee for the process of ripping their music
+		to their device. This fee will be paid by credit card.
+	5. WE can pull reports from the kiosk to see how it's doing.
+		a. Usage reports
+		b. Financial reports
+		c. Diagnostic reports
